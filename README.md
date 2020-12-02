@@ -1,38 +1,20 @@
-﻿# [Shakti](https://github.com/sochub/Shakti) 
-[![sites](SoC/qitas.png)](http://www.qitas.cn)
-#### 归类：[RISC-V](https://github.com/sochub/RISC-V)
-#### 收录芯片定级：[Level](https://github.com/sochub/Level)
-### [描述](https://github.com/sochub/Shakti/wiki) 
+﻿# [GW8822](https://github.com/SoCXin/GW8822)
 
-[Shakti](https://github.com/sochub/Shakti) 基于开源RISC-V指令集架构，印度理工学院（IIT）Madras 为其开源Shakti处理器发布了SDK，由印度电子和信息技术部资助。
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-hakti六个系列的处理器分别是E、C、I、M、S、H，具体定位如下：
+#### [Vendor](https://github.com/SoCXin/Vendor) ：[APM](https://www.geehy.com)
+#### [Core](https://github.com/SoCXin/Cortex)：[Cortex M4](https://github.com/SoCXin/CM4)
+#### [Level](https://github.com/SoCXin/Level)：120MHz
 
-*  E级是一个3级有序处理器，针对嵌入式设备，如物联网（IoT）设备，机器人平台，电机控制等。
+[GW8822](https://github.com/SoCXin/GW8822) 针对物联网领域2.4GHz的多协议通信连接SoC芯片，搭载32位ARM® Cortex®-M4和平头哥CK802双核。内置FLASH、SRAM、电源管理等可存储配置信息及应用程序，能独立工作，亦能作为主机透传使用；支持Mesh组网、室内定位、OTA；具有丰富的外设资源，能以最低的BOM成本快速搭建产品的无线通信功能。
 
-*  C级是一个32位5级有序微控制器级处理器，时钟频率在0.2-1GHz之间，针对中端应用，具有极低的功耗，并支持可选内存保护。
+### [资源收录](https://github.com/SoCXin)
 
-*  I级是64位无序处理器，时钟频率在1.5-2.5 GHz之间，并支持多线程。面向移动、存储和网络应用。
+* [文档](docs/)
+* [资源](src/)
 
+### [选型建议](https://github.com/SoCXin)
 
-*  M在这里代表多核（Multi-Core），因为M级处理器最多支持8个CPU内核，也可以是I和C级内核。
+[GW8822](https://github.com/SoCXin/GW8822)
 
-*  S级Shakti处理器针对工作站和服务器类型的负载。它是I类处理器的增强版本，支持多线程。
-
-*  H级是针对高性能计算和分析的处理器。它的主要特性包括高单线程性能，可选的L4缓存，以及对Gen-Z结构和存储级内存的支持。
-
-### 关键参数：
-
-* 
-
-### [资源收录](https://github.com/sochub/Shakti)
-
-
-* [文档](docs/) 
-* [资源](src/) 
-* [工程](project/) 
-
-### [选型建议](https://github.com/sochub)
-
-
-###  [SoC资源平台](http://www.qitas.cn)   
+###  [SoC芯平台](http://www.SoC.Xin)
